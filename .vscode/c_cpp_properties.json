@@ -9,9 +9,7 @@
                 "d:\\STM32 Project\\STM32F103\\sys设计\\SYSTEM\\delay",
                 "d:\\STM32 Project\\STM32F103\\sys设计\\SYSTEM\\sys",
                 "d:\\STM32 Project\\STM32F103\\sys设计\\SYSTEM\\usart",
-                "d:\\STM32 Project\\STM32F103\\sys设计\\HARDWARE\\LED",
-                "d:\\STM32 Project\\STM32F103\\sys设计\\HARDWARE\\OLED",
-                "d:\\STM32 Project\\STM32F103\\sys设计\\HARDWARE",
+                "d:\\STM32 Project\\STM32F103\\sys设计\\USER\\HARDWARE",
                 "d:\\STM32 Project\\STM32F103\\sys设计\\STM32F10x_FWLib\\src"
             ],
             "defines": [

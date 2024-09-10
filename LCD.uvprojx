@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\STM32F10x_FWLib\inc;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;..\HARDWARE\OLED;..\HARDWARE</IncludePath>
+              <IncludePath>..\CORE;..\STM32F10x_FWLib\inc;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;.\HARDWARE</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -406,37 +406,27 @@
             <File>
               <FileName>board.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\board.c</FilePath>
-            </File>
-            <File>
-              <FileName>oled.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\OLED\oled.c</FilePath>
-            </File>
-            <File>
-              <FileName>oled_menu.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\OLED\oled_menu.c</FilePath>
-            </File>
-            <File>
-              <FileName>oled_start.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\OLED\oled_start.c</FilePath>
-            </File>
-            <File>
-              <FileName>WS2812.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\WS2812.c</FilePath>
+              <FilePath>.\HARDWARE\board.c</FilePath>
             </File>
             <File>
               <FileName>PWM.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\PWM.c</FilePath>
+              <FilePath>.\HARDWARE\PWM.c</FilePath>
             </File>
             <File>
               <FileName>Servo.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\Servo.c</FilePath>
+              <FilePath>.\HARDWARE\Servo.c</FilePath>
+            </File>
+            <File>
+              <FileName>SG90.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\SG90.c</FilePath>
+            </File>
+            <File>
+              <FileName>WS2812.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\WS2812.c</FilePath>
             </File>
           </Files>
         </Group>
