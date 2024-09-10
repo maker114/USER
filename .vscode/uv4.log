@@ -1,0 +1,29 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling board.c...
+..\HARDWARE\board.c(12): error:  #20: identifier "RCC_AHB1Periph_GPIOC" is undefined
+      RCC_APB2PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
+..\HARDWARE\board.c(20): warning:  #223-D: function "RCC_AHB1PeriphClockCmd" declared implicitly
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOE, ENABLE);
+..\HARDWARE\board.c(20): error:  #20: identifier "RCC_AHB1Periph_GPIOE" is undefined
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOE, ENABLE);
+..\HARDWARE\board.c(22): error:  #20: identifier "GPIO_Mode_IN" is undefined
+      GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;
+..\HARDWARE\board.c(23): error:  #136: struct "<unnamed>"  has no field "GPIO_OType"
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+..\HARDWARE\board.c(23): error:  #20: identifier "GPIO_OType_PP" is undefined
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+..\HARDWARE\board.c(24): error:  #20: identifier "GPIO_Speed_100MHz" is undefined
+      GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
+..\HARDWARE\board.c(25): error:  #136: struct "<unnamed>"  has no field "GPIO_PuPd"
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
+..\HARDWARE\board.c(25): error:  #20: identifier "GPIO_PuPd_UP" is undefined
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
+..\HARDWARE\board.c(58): warning:  #223-D: function "GPIO_ToggleBits" declared implicitly
+          GPIO_ToggleBits(GPIOF, GPIO_Pin_10);
+..\HARDWARE\board.c(60): warning:  #223-D: function "GPIO_ToggleBits" declared implicitly
+          GPIO_ToggleBits(GPIOF, GPIO_Pin_9);
+..\HARDWARE\board.c: 3 warnings, 8 errors
+"..\OBJ\LCD.axf" - 8 Error(s), 3 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
