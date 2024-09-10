@@ -17,7 +17,7 @@ int main(void)
 	Servo_Init();
 	while (1)
 	{
-		Servo_SetAngle(170);
+		Servo_SetAngle(120);
 		num += 1;
 	}
 }
