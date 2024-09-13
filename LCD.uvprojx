@@ -419,11 +419,6 @@
               <FilePath>.\HARDWARE\Servo.c</FilePath>
             </File>
             <File>
-              <FileName>SG90.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\HARDWARE\SG90.c</FilePath>
-            </File>
-            <File>
               <FileName>WS2812.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\HARDWARE\WS2812.c</FilePath>
